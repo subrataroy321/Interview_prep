@@ -78,7 +78,7 @@ class LinkedList:
             current = self.head
 
             while position > 1:
-                current = new.next_node
+                current = current.next_node
                 position -= 1
             prev_node = current
             next_node = current.next_node
